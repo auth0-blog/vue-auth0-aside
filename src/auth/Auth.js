@@ -48,7 +48,7 @@ export default class Auth {
       next();
     }
   } 
-  
+
 
   login() {
     this.auth0.authorize();
